@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'minha-cor-1': '#011526',
-        'minha-cor-2': '#716f52',
+        'minha-cor-1-light': '#112536',
+        'minha-cor-2': '#757351',
       },
     },
   },

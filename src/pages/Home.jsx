@@ -1,60 +1,9 @@
 export default function Home(){
     return(
         <>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
-        <h1>Página Home</h1>
+        <div className="min-h-screen">
+            <h1>Página Home</h1>
+        </div>
         </>
     )
 }

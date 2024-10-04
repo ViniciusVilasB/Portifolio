@@ -5,7 +5,7 @@
 
 :root {
     --cor-personalizada-verde: #011526;
-    --cor-personalizada-dourada: #716f52;
+    --cor-personalizada-dourada: #757351;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 .active {
-    border-bottom: 3px solid var(--cor-personalizada-dourada);
+    color: var(--cor-personalizada-dourada);
 }
 
 /* Animação do botão */

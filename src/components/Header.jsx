@@ -28,7 +28,7 @@ export default function Header(){
     return(
         <>
             <header className={`flex w-full bg-minha-cor-1 text-white justify-between items-center h-16 p-4 fixed shadow-lg
-                transition-all duration-200 ease-in-out 
+                transition-all duration-200 ease-in-out
                 ${isScrolling ? "backdrop-blur-sm bg-minha-cor-1 bg-opacity-80" : "bg-minha-cor-1"}`}>
                 <div>
                     <h1>Vinicius Vilas Boas</h1>

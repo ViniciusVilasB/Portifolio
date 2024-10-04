@@ -2,7 +2,7 @@ import { BsInstagram, BsLinkedin, BsGithub  } from "react-icons/bs";
 
 export default function Footer(){
     return(
-        <footer className="flex w-full bg-minha-cor-1 text-white items-center justify-center flex-col p-3 gap-2">
+        <footer className="flex w-full bg-minha-cor-1 text-white items-center justify-center flex-col p-3 gap-2 mt-2">
             <h1>Desenvolvido por Vinicius Vilas Boas</h1>
             <div className="flex gap-4">
                 <a
