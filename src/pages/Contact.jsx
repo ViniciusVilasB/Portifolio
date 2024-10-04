@@ -26,15 +26,15 @@ export default function Contact() {
     };
 
     return (
-        <div className="min-h-screen flex items-center flex-col justify-around">
+        <div className="min-h-screen flex items-center flex-col justify-evenly">
 
             <div>
-                <h1 className="text-4xl text-minha-cor-1">Entre em contato comigo</h1>
+                <h1 className='text-4xl text-minha-cor-1'>Entre em contato comigo</h1>
                 <h2 className='text-xl px-1 text-minha-cor-1-light'>Você pode me enviar um email apenas preenchendo os campos abaixo</h2>
             </div>
 
-            <div className='flex justify-center w-full'>
-                <div>
+            <div className='flex justify-evenly w-full items-center flex-col-reverse md:flex-row'>
+                <div className=''>
                     <img
                         src={imgChatting}
                         alt="Imagem de pessoas conversando por texto"
@@ -42,7 +42,9 @@ export default function Contact() {
                     />
                 </div>
 
-                <div className="w-1 h-9/12 bg-minha-cor-1 mx-10"></div>
+                <div className="justify-center items-center h-64 bg-minha-cor-2 border rounded-lg hidden md:flex">
+                    <div className="w-1 h-1/2 bg-minha-cor-2"></div>
+                </div>
 
                 <form onSubmit={sendEmail} className="w-96 border border-minha-cor-1 rounded-lg">
                     <div className="flex justify-center my-4 gap-6 w-full">
