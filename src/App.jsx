@@ -7,6 +7,7 @@ export default function App() {
   return (
     <>
      <Header/>
+     <div className="container" style={{ paddingTop: '4rem' }}></div>
      <Outlet/>
      <Footer/>
     </>
