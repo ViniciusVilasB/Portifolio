@@ -21,7 +21,8 @@ export default function Contact() {
             .then((response) => {
                 alert('Email enviado com sucesso!');
             }, (err) => {
-                alert('Falha ao enviar o email. Tente novamente.');
+                // alert('Falha ao enviar o email. Tente novamente.');
+                alert('Essa função está em manutenção, utilize outrtos meios de comunicação.');
             });
     };
 
@@ -33,7 +34,7 @@ export default function Contact() {
                 <h2 className='text-xl px-1 text-minha-cor-1-light'>Você pode me enviar um email apenas preenchendo os campos abaixo</h2>
             </div>
 
-            <div className='flex justify-evenly w-full items-center flex-col-reverse md:flex-row'>
+            <div className='flex justify-evenly w-full items-center flex-col-reverse md:flex-row gap-3'>
                 <div className=''>
                     <img
                         src={imgChatting}
