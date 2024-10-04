@@ -3,10 +3,41 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+:root {
+    --cor-personalizada-verde: #011526;
+    --cor-personalizada-dourada: #716f52;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.active{
-    border-bottom: 2px solid white;
+.active {
+    border-bottom: 3px solid var(--cor-personalizada-dourada);
 }
+
+/* Animação do botão */
+
+.button-nav {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 2px;
+}
+
+.button-nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--cor-personalizada-dourada);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.button-nav:hover::after {
+    transform: translateX(0);
+}
+
+/* Fim da animação do botão */
