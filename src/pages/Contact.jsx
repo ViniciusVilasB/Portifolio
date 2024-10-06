@@ -30,19 +30,16 @@ export default function Contact() {
         <div className="min-h-screen flex items-center flex-col justify-evenly">
 
             <div>
-                <h1 className='text-4xl text-minha-cor-1'>Entre em contato comigo</h1>
+                <h1 className='text-4xl'>Entre em contato comigo</h1>
                 <h2 className='text-xl px-1 text-minha-cor-1-light'>Você pode me enviar um email apenas preenchendo os campos abaixo</h2>
             </div>
 
             <div className='flex justify-evenly w-full items-center flex-col-reverse md:flex-row gap-3'>
-                <div className=''>
-                    <img
-                        src={imgChatting}
-                        alt="Imagem de pessoas conversando por texto"
-                        className="w-96 "
-                    />
-                </div>
-
+                <img
+                    src={imgChatting}
+                    alt="Imagem de pessoas conversando por texto"
+                    className="w-96 "
+                />
                 <div className="justify-center items-center h-64 bg-minha-cor-2 border rounded-lg hidden md:flex">
                     <div className="w-1 h-1/2 bg-minha-cor-2"></div>
                 </div>

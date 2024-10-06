@@ -1,17 +1,18 @@
 import { useState } from 'react';
-import MovieCard from '../components/ProjectCard';
-import movies from '../data/projects.json';
+import ProjectCard from '../components/ProjectCard';
+import data from '../data/projects.json';
 
-export default function projects() {
+export default function Projects() {
 
   const [search, setSearch] = useState('');
 
-  const filmesFiltrados = movies.filter(movie => (movie.titulo.toLowerCase().includes(search.toLowerCase())));
+  const projetosFiltrados = data.filter(project => (project.titulo.toLowerCase().includes(search.toLowerCase())));
 
   return (
-    <>
-      <main className='grid grid-cols-4 justify-items-center gap-5'>
-        <h2 className='col-span-4 text-2xl font-bold text-center mb-5'>Veja todos os projetos</h2>
+    <main className='min-h-screen flex items-center flex-col justify-evenly m-10'>
+
+        <h1 className='text-4xl'>Veja meus projetos</h1>
+
         <form className='col-span-4 w-2/4 flex flex-col justify-center gap-2 mb-5'>
           <input
             type='text'
@@ -20,15 +21,17 @@ export default function projects() {
             placeholder='Pesquise um projeto'
             className=' text-black p-2 mb-5 border border-gray-300 rounded-md' />
         </form>
-        {
-          filmesFiltrados.length > 0 ?
-          filmesFiltrados.map((movie) => (
-            <MovieCard key={movie.id} {...movie} />
-          ))
-          :
-          <p> Projeto não encontrado</p>
-        }
-      </main>
-    </>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
+        gap-10 md:gap-5 m-5 w-full justify-items-center items-center'>
+          {
+            projetosFiltrados.length > 0 ?
+            projetosFiltrados.map((project) => (
+              <ProjectCard key={project.id} {...project} />
+            ))
+            :
+            <p> Projeto não encontrado</p>
+          }
+        </div>
+    </main>
   )
 }

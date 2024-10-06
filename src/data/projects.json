@@ -1,18 +1,29 @@
 [
     {
-        "id": 0,
-        "titulo": "Teste",
-        "descricao": "Teste",
-        "conteudo" : "Teste",
+        "id": 1,
+        "titulo": "[Fictício] Redes",
+        "descricao": "Criação e configuração de redes para melhorar a comunicação entre dispositivos.",
+        "conteudo" : "Um projeto dedicado ao desenvolvimento e implementação de uma infraestrutura de redes robusta, visando otimizar a comunicação e a troca de dados entre dispositivos. Inclui a configuração de roteadores, switches e a criação de redes locais e virtuais.",
         "ano": 2024,
-        "imagem_destaque": "teste.jpg"
+        "imagem_destaque": "imgTesteRede1.jpg",
+        "galeria_imagens": ["imgTesteRede2.jpg", "imgTesteRede3.jpg", "imgTesteRede4.jpg"]
     },
     {
-        "id": 1,
-        "titulo": "Teste 1",
-        "descricao": "Teste 1",
-        "conteudo" : "Teste 1",
+        "id": 2,
+        "titulo": "[Fictício] Tecnologia",
+        "descricao": "Desenvolvimento de novas soluções tecnológicas para resolver problemas.",
+        "conteudo" : "Um projeto focado na inovação e aplicação de novas tecnologias para resolver problemas específicos. Engloba o uso de software, hardware e metodologias ágeis para criar soluções que atendam às necessidades dos usuários e melhorem processos existentes.",
         "ano": 2024,
-        "imagem_destaque": "teste1.jpg"
+        "imagem_destaque": "imgTesteNormal1.jpg",
+        "galeria_imagens": ["imgTesteNormal2.jpg"]
+    },
+    {
+        "id": 3,
+        "titulo": "[Fictício] Segurança",
+        "descricao": "Implementação de medidas para proteger sistemas e dados contra ameaças.",
+        "conteudo" : "Um projeto voltado para a proteção de sistemas e informações contra ameaças e vulnerabilidades. Inclui a análise de riscos, implementação de medidas de segurança, e a criação de protocolos para garantir a integridade, confidencialidade e disponibilidade dos dados.",
+        "ano": 2024,
+        "imagem_destaque": "imgTesteSeguranca1.jpg",
+        "galeria_imagens": []
     }
 ]
