@@ -3,15 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-.active{
-    border-bottom: 2px solid white;
-}
-=======
 :root {
     --cor-personalizada-verde: #011526;
     --cor-personalizada-dourada: #757351;
@@ -51,4 +42,3 @@ body {
 }
 
 /* Fim da animação do botão */
->>>>>>> trabalhando-geral

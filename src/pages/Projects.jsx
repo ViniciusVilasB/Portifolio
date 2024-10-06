@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-export default function Projects(){
-    return(
-        <h1>Página Projects</h1>
-    )
-}
-=======
 import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import data from '../data/projects.json';
@@ -43,4 +36,3 @@ export default function Projects() {
   )
   
 }
->>>>>>> trabalhando-geral

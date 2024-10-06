@@ -7,10 +7,7 @@ export default function App() {
   return (
     <>
      <Header/>
-<<<<<<< HEAD
-=======
      <div style={{ paddingTop: '4rem' }}></div>
->>>>>>> trabalhando-geral
      <Outlet/>
      <Footer/>
     </>

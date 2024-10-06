@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-export default function Contact(){
-    return(
-        <h1>Página Contact</h1>
-    )
-=======
 import React, { useState } from 'react';
 import imgChatting from '../assets/chatting.svg';
 // import emailjs from 'emailjs-com';
@@ -95,5 +89,4 @@ export default function Contact() {
             </div>
         </div>
     );
->>>>>>> trabalhando-geral
 }

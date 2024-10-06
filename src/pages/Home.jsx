@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-export default function Home(){
-    return(
-            <h1>Página Home</h1>
-    )
-=======
 import { Link } from "react-router-dom";
 import imgPicProfile from '../assets/picProfile.svg';
 import imgWebsite from '../assets/website.svg';
@@ -53,5 +47,4 @@ export default function Home(){
         </div>
     )
 
->>>>>>> trabalhando-geral
 }
