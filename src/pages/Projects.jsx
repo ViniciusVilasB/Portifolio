@@ -29,9 +29,10 @@ export default function Projects() {
               <ProjectCard key={project.id} {...project} />
             ))
             :
-            <p> Projeto não encontrado</p>
+            <p className='text-xl'> Projeto não encontrado</p>
           }
         </div>
     </main>
   )
+  
 }
