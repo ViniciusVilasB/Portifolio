@@ -7,6 +7,10 @@ import Home from './pages/Home.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 import About from './pages/About.jsx'
 import Projects from './pages/Projects.jsx'
+<<<<<<< HEAD
+=======
+import DetailedProject from './pages/DetailedProject.jsx'
+>>>>>>> trabalhando-geral
 import Contact from './pages/Contact.jsx'
 
 const router= createBrowserRouter([
@@ -17,6 +21,10 @@ const router= createBrowserRouter([
       {index: true, element: <Home />},
       {path: '/about', element: <About/>},
       {path: '/projects', element: <Projects/>},
+<<<<<<< HEAD
+=======
+      {path: '/projects/:id', element: <DetailedProject />},
+>>>>>>> trabalhando-geral
       {path: '/contact', element: <Contact/>},
       {path: '*', element: <PageNotFound/>}
     ]
