@@ -2,7 +2,7 @@ import imgNotFound from '../assets/notFound.svg'
 
 export default function PageNotFound(){
     return(
-        <div className="flex flex-col min-h-screen items-center justify-evenly">
+        <div className="main">
             <img
                 src={imgNotFound}
                 alt="Imagem de erro"

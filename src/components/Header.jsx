@@ -43,9 +43,9 @@ export default function Header(){
       ];
 
     return(
-        <header className={`flex w-full bg-minha-cor-1-light text-white justify-between items-center h-16 p-6 fixed
+        <header className={`flex w-full bg-minha-cor-1 text-white justify-between items-center h-16 p-6 fixed
             transition-all duration-200 ease-in-out
-            ${isScrolling & !isMenuOpen ? "backdrop-blur-sm bg-opacity-80" : "bg-minha-cor-1-light"}`}>
+            ${isScrolling & !isMenuOpen ? "backdrop-blur-sm bg-opacity-80" : "bg-minha-cor-1"}`}>
 
             <div className="flex items-center text-minha-cor-2 ">
                 <img src={imgIcon} className='h-24' alt="Imagem de logo do site" />

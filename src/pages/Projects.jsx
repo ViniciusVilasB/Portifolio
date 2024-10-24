@@ -9,7 +9,7 @@ export default function Projects() {
   const projetosFiltrados = data.filter(project => (project.titulo.toLowerCase().includes(search.toLowerCase())));
 
   return (
-    <main className='min-h-screen flex items-center flex-col justify-evenly m-10'>
+    <main className='main'>
 
         <h1 className='text-4xl'>Veja meus projetos</h1>
 

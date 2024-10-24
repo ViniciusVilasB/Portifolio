@@ -9,7 +9,7 @@ export default function ProjectCard({id, titulo, imagem_destaque, descricao}){
                 <p className="p-2 my-3">{descricao}</p>
 
                 <Link
-                className="py-2 px-3 bg-minha-cor-1 hover:bg-minha-cor-1-light m-4 text-white rounded-xl"
+                className="py-2 px-3 bg-minha-cor-1 hover:bg-minha-cor-1 m-4 text-white rounded-xl"
                 to={`/projects/${id}`}
                 onClick={() => window.scrollTo(0, 0)}>
                 Ver detalhes

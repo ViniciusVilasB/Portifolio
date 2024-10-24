@@ -27,11 +27,11 @@ export default function Contact() {
     // };
 
     return (
-        <div className="min-h-screen flex items-center flex-col justify-evenly">
+        <div className="main">
 
             <div>
                 <h1 className='text-4xl'>Entre em contato comigo</h1>
-                <h2 className='text-xl px-1 text-minha-cor-1-light'>Você pode me enviar um email apenas preenchendo os campos abaixo</h2>
+                <h2 className='text-xl px-1 text-minha-cor-1'>Você pode me enviar um email apenas preenchendo os campos abaixo</h2>
             </div>
 
             <div className='flex justify-evenly w-full items-center flex-col-reverse md:flex-row gap-3 m-10'>
@@ -81,7 +81,7 @@ export default function Contact() {
                     <div className="flex items-center justify-center px-3 py-2 border-t-2">
                         <button
                             type="submit"
-                            className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-minha-cor-1 rounded-lg hover:bg-minha-cor-1-light">
+                            className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-minha-cor-1 rounded-lg hover:bg-minha-cor-2">
                             Enviar
                         </button>
                     </div>

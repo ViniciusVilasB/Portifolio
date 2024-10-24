@@ -4,12 +4,12 @@ import imgMap from '../assets/map.svg';
 export default function About(){
     return(
 
-        <div className="min-h-screen flex items-center flex-col justify-evenly"> 
+        <div className="main"> 
 
             <div className="flex flex-col justify-evenly items-center h-96">
                 <h1 className='text-4xl'>Quem sou eu?</h1>
 
-                <p className="text-xl text-minha-cor-1-light md:mx-52">Sou apaixonado por tecnologia e adoro explorar novas ideias e desafios. Aqui você vai conhecer um pouco mais sobre mim: de onde venho, minhas paixões e o que me inspira no dia a dia. Quando não estou estudando ou trabalhando, você pode me encontrar escutando musicas, jogando videogame, futebol ou volei.</p>
+                <p className="text-xl text-minha-cor-1 md:mx-52">Sou apaixonado por tecnologia e adoro explorar novas ideias e desafios. Aqui você vai conhecer um pouco mais sobre mim: de onde venho, minhas paixões e o que me inspira no dia a dia. Quando não estou estudando ou trabalhando, você pode me encontrar escutando musicas, jogando videogame, futebol ou volei.</p>
             </div>
 
             <div className="flex flex-col justify-around bg-minha-cor-1 items-center h- w-full p-4

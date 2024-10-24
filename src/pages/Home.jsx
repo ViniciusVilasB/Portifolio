@@ -5,10 +5,10 @@ import imgWebsite from '../assets/website.svg';
 export default function Home(){
 
     return(
-        <div className="min-h-screen flex items-center flex-col justify-evenly">
+        <div className="main">
             <div className='flex flex-col justify-center h-96'>
                 <h1 className='text-4xl'>Bem-vindo ao meu portfólio!</h1>
-                <h2 className="text-xl px-1 text-minha-cor-1-light">Aqui você encontrará mais sobre mim e meus projetos. Sinta-se à vontade para explorar!</h2>
+                <h2 className="text-xl px-1 text-minha-cor-1">Aqui você encontrará mais sobre mim e meus projetos. Sinta-se à vontade para explorar!</h2>
             </div>
 
             <div className="flex flex-col justify-around bg-minha-cor-1 items-center h-96 w-full p-4
