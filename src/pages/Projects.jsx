@@ -9,7 +9,7 @@ export default function Projects() {
   const projetosFiltrados = data.filter(project => (project.titulo.toLowerCase().includes(search.toLowerCase())));
 
   return (
-    <main className='main'>
+    <main className='main justify-evenly'>
 
         <h1 className='text-4xl'>Veja meus projetos</h1>
 

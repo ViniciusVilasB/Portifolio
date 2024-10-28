@@ -44,5 +44,5 @@ body {
 /* Fim da animação do botão */
 
 .main{
-    @apply min-h-screen flex items-center flex-col justify-evenly;
+    @apply min-h-screen flex items-center flex-col;
 }

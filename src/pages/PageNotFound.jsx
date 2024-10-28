@@ -2,7 +2,7 @@ import imgNotFound from '../assets/notFound.svg'
 
 export default function PageNotFound(){
     return(
-        <div className="main">
+        <div className="main justify-evenly">
             <img
                 src={imgNotFound}
                 alt="Imagem de erro"

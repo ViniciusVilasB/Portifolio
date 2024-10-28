@@ -27,7 +27,7 @@ export default function Contact() {
     // };
 
     return (
-        <div className="main">
+        <div className="main justify-evenly">
 
             <div>
                 <h1 className='text-4xl'>Entre em contato comigo</h1>

@@ -5,7 +5,7 @@ import imgWebsite from '../assets/website.svg';
 export default function Home(){
 
     return(
-        <div className="main">
+        <div className="main justify-evenly">
             <div className='flex flex-col justify-center h-96'>
                 <h1 className='text-4xl'>Bem-vindo ao meu portfólio!</h1>
                 <h2 className="text-xl px-1 text-minha-cor-1">Aqui você encontrará mais sobre mim e meus projetos. Sinta-se à vontade para explorar!</h2>
