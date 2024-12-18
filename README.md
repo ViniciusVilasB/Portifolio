@@ -10,4 +10,4 @@ Este é o meu portfólio pessoal, desenvolvido com React e estilizado com Tailwi
 
 ## Demonstração
 
-[Link do site](https://portifolio-vinicius-vilas-boas.vercel.app/)
+[Link do site](https://portifoliovb.vercel.app/)
