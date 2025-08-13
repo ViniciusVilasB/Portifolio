@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import {
     AiOutlineHome,
-    AiOutlineUser,
     AiOutlineCode,
     AiOutlineMessage,
     AiOutlineMenu,
@@ -37,7 +36,6 @@ export default function Header(){
 
     const navItems = [
         { to: '/', label: 'Home', icon: <AiOutlineHome /> },
-        { to: '/about', label: 'Sobre mim', icon: <AiOutlineUser /> },
         { to: '/projects', label: 'Projetos', icon: <AiOutlineCode /> },
         { to: '/contact', label: 'Contato', icon: <AiOutlineMessage /> },
       ];

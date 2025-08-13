@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import imgPicProfile from '../assets/picProfile.svg';
+import imgPicProfile from '../assets/picProfile.png';
 import imgWebsite from '../assets/website.svg';
 
 export default function Home(){
@@ -13,12 +13,12 @@ export default function Home(){
 
             <div className="flex flex-col justify-around bg-minha-cor-1 items-center h-96 w-full p-4
             md:flex-row">
-                <p className='md:w-1/2 text-xl text-white'>Olá! Sou Vincius, um estudante apaixonado por Tecnologia. Atualmente moro em São Paulo e estou sempre buscando qualidade e facilidade na minha vida. Neste portfólio, você encontrará uma seleção dos meus projetos, que refletem meu estilo e abordagem. Estou animado para compartilhar minha jornada com você e espero que se inspire ao explorar meu trabalho!</p>
+                <p className='md:w-1/2 text-xl text-white'>Sou estudante de Engenharia de Software na FIAP e formado como Técnico em Desenvolvimento de Sistemas na ETE FMC. Tenho um forte interesse em análise de dados, segurança da informação e redes. Meu objetivo é contribuir para equipes onde possa aplicar minha experiência e atingir meus objetivos.</p>
 
                 <img
                     src={imgPicProfile}
                     alt="Imagem de uma foto de perfil"
-                    className="hidden md:block md:w-80"
+                    className="hidden md:block md:w-80 rounded-full"
                 />
 
             </div>
