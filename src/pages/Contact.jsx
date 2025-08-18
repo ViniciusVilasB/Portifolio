@@ -19,7 +19,8 @@ export default function Contact() {
 
             <div>
                 <h1 className='text-4xl'>Entre em contato comigo</h1>
-                <h2 className='text-xl px-1 text-minha-cor-1-light'>Você pode me enviar um email apenas preenchendo os campos abaixo</h2>
+                {/* <h2 className='text-xl px-1 text-minha-cor-1-light'>Você pode me enviar um email apenas preenchendo os campos abaixo</h2> */}
+                <h2 className='text-xl px-1 text-minha-cor-1-light'>Você pode me enviar uma mensagem no Email ou Whatsapp</h2>
             </div>
 
             <div className='flex justify-evenly w-full items-center flex-col-reverse md:flex-row gap-3 m-10'>
@@ -32,7 +33,7 @@ export default function Contact() {
                     <div className="w-1 h-1/2 bg-minha-cor-2"></div>
                 </div>
 
-                <div className="w-96 border border-minha-cor-1 rounded-lg">
+                {/* <div className="w-96 border border-minha-cor-1 rounded-lg">
                     <form
                     className="flex flex-col p-4 gap-3"
                     onSubmit={(e) => {
@@ -81,7 +82,21 @@ export default function Contact() {
                     </button>
                     </form>
 
+                </div> */}
+
+                <div className="w-96 border-2 border-minha-cor-1 rounded-lg">
+                    <div className="py-8 text-center space-y-4">
+                        <div>
+                            <h1 className="text-2xl">Email:</h1>
+                            <p>vilas.vinicius@hotmail.com</p>
+                        </div>
+                        <div>
+                            <h1 className="text-2xl">WhatsApp:</h1>
+                            <p>35 98825-5977</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     );

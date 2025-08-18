@@ -60,10 +60,12 @@ export default function Header(){
                 <ul className="flex flex-col md:flex-row gap-6">
                     {navItems.map(({ to, label, icon }) => (
                         <li key={to} className="button-nav">
+                            
                             <NavLink 
                                 to={to}
                                 className={'flex items-center gap-1'}
-                                onClick={() => setIsMenuOpen(false)}>
+                                onClick={() => {setIsMenuOpen(false),
+                                    window.scrollTo(0, 0)}}>
                                 {icon}
                                 {label}
                             </NavLink>
