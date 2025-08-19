@@ -7,9 +7,10 @@ import {
     AiOutlineMenu,
     AiOutlineClose,
 } from "react-icons/ai";
-import imgIcon from '../assets/icon.svg'
 
 export default function Header(){ 
+
+    const imgIcon = '/icon.svg';
 
     const [isScrolling, setIsScrolling] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,12 +42,12 @@ export default function Header(){
       ];
 
     return(
-        <header className={`flex w-full bg-minha-cor-1-light text-white justify-between items-center h-16 p-6 fixed
-            transition-all duration-200 ease-in-out
+        <header className={`flex w-full bg-minha-cor-1-light text-white justify-between items-center h-20 p-4 fixed
+            transition-all duration-200 ease-in-out z-10
             ${isScrolling & !isMenuOpen ? "backdrop-blur-sm bg-opacity-80" : "bg-minha-cor-1-light"}`}>
 
             <div className="flex items-center text-minha-cor-2 ">
-                <img src={imgIcon} className='h-24' alt="Imagem de logo do site" />
+                <img src={imgIcon} className='h-12 m-2' alt="Imagem de logo do site" />
                 <h1>Vinicius Vilas Boas</h1>
             </div>
 
@@ -54,7 +55,7 @@ export default function Header(){
                 {isMenuOpen ? <AiOutlineClose size = {24} /> : <AiOutlineMenu size = {24} />}
             </div>
 
-            <nav className={`absolute top-16 left-0 p-4 transition-all duration-200 ease-in-out md:static md:flex md:gap-6
+            <nav className={`absolute top-16 left-0 p-2 transition-all duration-200 ease-in-out md:static md:flex md:gap-6
                 ${isMenuOpen ? 'block w-full bg-minha-cor-1': 'hidden'}`}>
 
                 <ul className="flex flex-col md:flex-row gap-6">
