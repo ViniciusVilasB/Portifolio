@@ -1,29 +1,38 @@
 [
-    {
-        "id": 1,
-        "titulo": "[Fictício] Redes",
-        "descricao": "Criação e configuração de redes para melhorar a comunicação entre dispositivos.",
-        "conteudo" : "Um projeto dedicado ao desenvolvimento e implementação de uma infraestrutura de redes robusta, visando otimizar a comunicação e a troca de dados entre dispositivos. Inclui a configuração de roteadores, switches e a criação de redes locais e virtuais.",
-        "ano": 2024,
-        "imagem_destaque": "imgTesteRede1.jpg",
-        "galeria_imagens": ["imgTesteRede2.jpg", "imgTesteRede3.jpg", "imgTesteRede4.jpg"]
-    },
-    {
-        "id": 2,
-        "titulo": "[Fictício] Tecnologia",
-        "descricao": "Desenvolvimento de novas soluções tecnológicas para resolver problemas.",
-        "conteudo" : "Um projeto focado na inovação e aplicação de novas tecnologias para resolver problemas específicos. Engloba o uso de software, hardware e metodologias ágeis para criar soluções que atendam às necessidades dos usuários e melhorem processos existentes.",
-        "ano": 2024,
-        "imagem_destaque": "imgTesteNormal1.jpg",
-        "galeria_imagens": ["imgTesteNormal2.jpg"]
-    },
-    {
-        "id": 3,
-        "titulo": "[Fictício] Segurança",
-        "descricao": "Implementação de medidas para proteger sistemas e dados contra ameaças.",
-        "conteudo" : "Um projeto voltado para a proteção de sistemas e informações contra ameaças e vulnerabilidades. Inclui a análise de riscos, implementação de medidas de segurança, e a criação de protocolos para garantir a integridade, confidencialidade e disponibilidade dos dados.",
-        "ano": 2024,
-        "imagem_destaque": "imgTesteSeguranca1.jpg",
-        "galeria_imagens": []
-    }
+  {
+    "id": 867421536,
+    "titulo": "Portifolio",
+    "descricao": "Site de portifólio pessoal",
+    "conteudo": "Este próprio site de portfólio. Desenvolvido com React, Vite e Tailwind CSS para apresentar meus projetos de forma moderna e responsiva. Os dados dos projetos são buscados automaticamente da API do GitHub durante o processo de build para garantir a performance.",
+    "ano": 2025,
+    "link": "https://portifoliovb.vercel.app",
+    "imagem_destaque": "images/portifolio/destaque.png",
+    "galeria_imagens": []
+  },
+  {
+    "id": 889693285,
+    "titulo": "GS-Web",
+    "descricao": "Site para Global Solutions da matéria de Web Development",
+    "conteudo": "Este é um projeto detalhado sobre a Global Solution de Web. Focado em desenvolver uma solução inovadora para problemas de saúde, utilizando tecnologias web modernas como React e Node.js.",
+    "ano": 2025,
+    "link": "https://gs-eco-energy.vercel.app",
+    "imagem_destaque": "images/gs-web/destaque.jpg",
+    "galeria_imagens": [
+      "images/gs-web/galeria1.jpg"
+    ]
+  },
+  {
+    "id": 878083227,
+    "titulo": "CinePortal",
+    "descricao": "Site de portal de filmes utilizando a API: The Movie Database",
+    "conteudo": "CinePortal é uma plataforma para entusiastas de cinema. Permite buscar filmes, ver detalhes, avaliações e criar listas personalizadas. Construído com a API do The Movie Database (TMDB).",
+    "ano": 2024,
+    "link": "https://cineportal.vercel.app",
+    "imagem_destaque": "images/cineportal/destaque.jpg",
+    "galeria_imagens": [
+      "images/cineportal/galeria1.jpg",
+      "images/cineportal/galeria2.jpg",
+      "images/cineportal/galeria3.jpg"
+    ]
+  }
 ]
