@@ -42,15 +42,10 @@ export default function Header(){
       ];
 
     return(
-<<<<<<< HEAD
-        <header className={`flex w-full bg-minha-cor-1 text-white justify-between items-center h-16 p-6 fixed
-            transition-all duration-200 ease-in-out
-            ${isScrolling & !isMenuOpen ? "backdrop-blur-sm bg-opacity-80" : "bg-minha-cor-1"}`}>
-=======
+
         <header className={`flex w-full bg-minha-cor-1-light text-white justify-between items-center h-20 p-4 fixed
             transition-all duration-200 ease-in-out z-10
             ${isScrolling & !isMenuOpen ? "backdrop-blur-sm bg-opacity-80" : "bg-minha-cor-1-light"}`}>
->>>>>>> trabalhando-geral
 
             <div className="flex items-center text-minha-cor-2 ">
                 <img src={imgIcon} className='h-12 m-2' alt="Imagem de logo do site" />

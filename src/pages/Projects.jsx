@@ -10,13 +10,9 @@ export default function Projects() {
   const projetosFiltrados = data.filter(project => (project.titulo.toLowerCase().includes(search.toLowerCase())));
 
   return (
-<<<<<<< HEAD
-    <main className='main justify-evenly'>
-=======
+
     <main className='min-h-screen bg-gray-100 py-16 px-4'>
       <div className='max-w-7xl mx-auto'>
->>>>>>> trabalhando-geral
-
         <div className='text-center mb-12'>
           <h1 className='text-4xl md:text-5xl font-bold mb-4'>Meus Projetos</h1>
           <p className='text-xl px-1 text-minha-cor-1-light'>Explore uma seleção dos trabalhos que desenvolvi.</p>
@@ -47,9 +43,5 @@ export default function Projects() {
       </div>
     </main>
   )
-<<<<<<< HEAD
-  
+
 }
-=======
-}
->>>>>>> trabalhando-geral
